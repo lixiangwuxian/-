@@ -30,9 +30,9 @@ function ptout(xset,yset)
 	end
 	io.write("Q\n")
 	for i=1,math.ceil(yset)-1 do
-		print("\n")
+		io.write("\n")
 	end
-	print("_______________________________________________________")
+	print("\n_______________________________________________________")
 end
 
 function main()
